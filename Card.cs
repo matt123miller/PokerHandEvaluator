@@ -4,10 +4,17 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Poker.Models
+namespace PokerEvaluator
 {
     public class Card
     {
+        private enum SuitValues
+        {
+            Clubs = 0,
+            Diamonds = 1,
+            Hearts = 2,
+            Spades = 3
+        }
 
         private int value;
         private int suit;
@@ -31,7 +38,7 @@ namespace Poker.Models
             set { cardName = value; }
         }
 
-
+        // Change to use enum
         public Card(int cardValue, int cardSuit)
         {
             Value = cardValue;
