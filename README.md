@@ -1,6 +1,6 @@
 # PokerHandEvaluator
 ### A system for emulating Texas Hold'em poker using C# and LINQ. 
-Originally designed to work with to simulate online poker with an ASP.NET front end and a backend connected to a MySQL database. The poker part of that project was separated and now adapted as a command line application. It is hoped that anybody could employ this code to make a traditional card game and expand it as needs be. 
+Originally designed to work with to simulate online poker with an ASP.NET front end and a backend connected to a MySQL database in collaboration with [Abdul Kareem](https://twitter.com/Kreemy95). The poker part of that project was separated and now adapted as a command line application. It is hoped that anybody could employ this code to make a traditional card game and expand it as needs be. 
 Can be sumarised as: A `Table` maintains a `Deck` of `Cards` which it deals to `Hand` objects. 
 
 
